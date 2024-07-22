@@ -14,11 +14,12 @@ def run(questions):
             print(option)
         answer = input("Enter Your Answer:  ")
         if answer == qs["answer"]:
-            print("Correct\n")
+            print("Correct")
             score+=1
         else:
             print("Wrong, the answer is",qs["answer"])
-    print(score)        
+        print("----------")
+    print(f"You get {score} scores.")        
 
 
 run(questions)

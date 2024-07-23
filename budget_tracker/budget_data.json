@@ -1,0 +1,17 @@
+{
+    "initial_budget": 1000.0,
+    "expenses": [
+        {
+            "description": "Test1",
+            "amount": 100.0
+        },
+        {
+            "description": "Test2",
+            "amount": 200.0
+        },
+        {
+            "description": "Test3",
+            "amount": 300.0
+        }
+    ]
+}
